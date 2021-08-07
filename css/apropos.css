@@ -1,0 +1,10 @@
+#propos {
+  background-color: #f7f4f4;
+  padding: 10px 0; }
+  #propos .part1 {
+    height: 300px;
+    font-size: 200%;
+    font-style: italic;
+    padding: 20px;
+    text-align: center;
+    color: #3D499F; }
