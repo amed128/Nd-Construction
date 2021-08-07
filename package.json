@@ -1,0 +1,14 @@
+{
+  "name": "nd_construction",
+  "version": "1.0.0",
+  "description": "Ndiouroul Cons",
+  "main": "index.js",
+  "scripts": {
+    "sass": "node-sass -w scss/ -o dist/css/ --recursive"
+  },
+  "author": "Niang",
+  "license": "MIT",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  }
+}

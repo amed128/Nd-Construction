@@ -1,0 +1,16 @@
+$primary-color: #3D499F;
+$secondary-color: #EAE647;
+$third-color: rgb(247, 244, 244);
+
+#propos {
+    background-color: $third-color;
+    padding: 10px 0;
+    .part1  {
+        height: 300px;
+        font-size: 200%;
+        font-style: italic;
+        padding: 20px;
+        text-align: center;
+        color: $primary-color;
+    }
+}
