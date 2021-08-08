@@ -8,6 +8,10 @@ $third-color: rgb(247, 244, 244);
     padding: 0px;
     box-sizing: border-box;
     // margin-bottom: 500px;
+    // overflow-x: hidden;
+    // &::-webkit-scrollbar {
+    //     overflow-x: hidden;
+    // }
 }
 
 
@@ -435,6 +439,9 @@ $third-color: rgb(247, 244, 244);
 @media(max-width: 700px){
     body {
         overflow-x: hidden;
+        &::-webkit-scrollbar {
+            display: none;
+        }
     }
 
     // #main-header {
@@ -610,6 +617,7 @@ $third-color: rgb(247, 244, 244);
         z-index: 1;
         transform: translateX(100%);
         transition: transform 0.6s ease-in;
+        
     }
    
     .side-menu {
