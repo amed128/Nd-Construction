@@ -258,8 +258,6 @@
 @media (max-width: 700px) {
   body {
     overflow-x: hidden; }
-    body::-webkit-scrollbar {
-      display: none; }
   #navbar {
     display: flex;
     flex-direction: row; }
