@@ -4,6 +4,10 @@
   padding: 0px;
   box-sizing: border-box; }
 
+.site-wrapper {
+  overflow-x: hidden;
+  position: relative; }
+
 #main-header {
   font-size: 18px;
   font-weight: 500;
@@ -256,9 +260,6 @@
       font-size: 25px; } }
 
 @media (max-width: 700px) {
-  .site-wrapper {
-    overflow-x: hidden;
-    position: relative; }
   #navbar {
     display: flex;
     flex-direction: row; }
